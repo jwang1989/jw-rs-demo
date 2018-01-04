@@ -145,6 +145,7 @@
                             <phase>compile</phase>
                             <configuration>
                                 <configLocation>tools/checkstyle.xml</configLocation>
+                                <suppressionsLocation>tools/suppressions.xml</suppressionsLocation>
                                 <encoding>UTF-8</encoding>
                                 <consoleOutput>true</consoleOutput>
                                 <failsOnError>true</failsOnError>

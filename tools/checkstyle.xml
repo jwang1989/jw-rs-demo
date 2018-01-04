@@ -126,6 +126,6 @@
     </module>
     <module name="UniqueProperties"/>
     <module name="SuppressionFilter">
-        <property name="file" value="tools/suppressions.xml" />
+        <!--<property name="file" value="suppressions.xml" />-->
     </module>
 </module>
