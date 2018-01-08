@@ -117,10 +117,11 @@
                     </execution>
                 </executions>
                 <configuration>
+                    <classifier>exec</classifier>
                     <jvmArguments>-Xdebug
-                        -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005
-                        -Dlogging.config="conf/logback.xml"
-                        -Duser.timezone=UTC</jvmArguments>
+                         -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005
+                         -Dlogging.config="conf/logback.xml"
+                         -Duser.timezone=UTC</jvmArguments>
                 </configuration>
             </plugin>
         </plugins>
